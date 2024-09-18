@@ -1,6 +1,4 @@
-import skillsData from "../../libs/skillsData";
 import Text from "./TypeText";
-import Marquee from "react-fast-marquee";
 
 const About1Content = () => {
   return (
@@ -12,7 +10,7 @@ const About1Content = () => {
         <div>
           I'M <span className="hover-highlight text-[#f6cfcf]">MAY THIT HTUN</span>
         </div>
-        {/* <Text /> */}
+        <Text />
         <a
           className="hover-highlight w-[195px] h-[47px] mt-5 text-[25px] text-center rounded-xl border-2 border-[#f6cfcf]"
           href="/maythithtun.pdf"
@@ -21,7 +19,7 @@ const About1Content = () => {
           Download CV
         </a>
       </div>
-      {/* <img className="hero-gif basis-96 w-96 h-96" src={"./cha2.gif"} alt="hero" /> */}
+      <img className="hero-gif basis-96 w-96 h-96" src={"./cha.gif"} alt="hero" />
     </div>
   );
 };
@@ -46,13 +44,3 @@ const About2Content = () => {
 };
 
 export { About1Content, About2Content };
-
-// style={{
-//   display: "inline",
-//   borderImageRepeat: "stretch",
-//   borderImageSlice: "0 fill",
-//   borderImageSource:
-//     "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/664131/underline.svg)",
-//   borderImageWidth: "calc(100% - 6px) 0 0",
-//   borderImageOutset: "3px",
-// }}

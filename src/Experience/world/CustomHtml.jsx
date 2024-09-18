@@ -3,15 +3,17 @@ import { Html } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 
-const CustomHtml = (props) => {
-  const htmlRef = useRef();
-
+const CustomHtml = ({ style, ...props }) => {
   return (
     <Html
-      ref={htmlRef}
       transform
       wrapperClass="htmlScreen"
+      zIndexRange={[100, 0]}
       distanceFactor={3}
+      style={{
+        cursor: "pointer",
+        ...style,
+      }}
       occlude="blending"
       {...props}
     >

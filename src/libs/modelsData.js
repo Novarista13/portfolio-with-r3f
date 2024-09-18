@@ -7,7 +7,7 @@ export default [
   { name: "bricks_3", texture: "./bakedPictures/bricks_3.webp" },
   { name: "signs", texture: "./bakedPictures/signs.webp" },
   { name: "boardBounds", texture: "./bakedPictures/boardBounds.webp" },
-  { name: "links", texture: "./bakedPictures/links.webp" },
+  // { name: "links", texture: "./bakedPictures/links.webp" },
   { name: "pines", texture: "./bakedPictures/pines.webp" },
   { name: "bushes", texture: "./bakedPictures/bushes.webp" },
   { name: "trees_1", texture: "./bakedPictures/trees_1.webp" },

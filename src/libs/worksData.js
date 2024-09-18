@@ -30,7 +30,7 @@ export default [
     name: "social",
     img: "./works/social.png",
     description:
-      "During a course, I collaborated with my Lecturer to develop a clone of a popular social media platform, 'X'.\n\n This project involved creating a fully functional website where users can register accounts, post text updates, comment on others' posts, follow each other, and manage their profiles.\n\n A key feature of the platform is its real-time notification system, implemented using WebSockets.\n\n I developed the frontend using React, and the backend with Node.js and a MongoDB database. \n\nThis project not only honed my skills in frontend and backend development but also provided valuable experience in real-time data handling and user interaction management.\n\nContributors: Me & My Lecturer",
+      "During a course, I collaborated with my Lecturer to develop a clone of a popular social media platform, 'X'.\n\n This project involved creating a fully functional website where users can register accounts, post text updates, comment on others' posts, follow each other, and manage their profiles.\n\n I developed the frontend using React, and the backend with Node.js, WebSockets and a MongoDB database. \n\nThis project not only honed my skills in frontend and backend development but also provided valuable experience in real-time data handling and user interaction management.\n\nContributors: Me & My Lecturer",
     techStacks: ["Javascript", "React", "Axios", "Node", "MaterialUI"],
     source: "https://github.com/Novarista13/rsd24/tree/main/x-app",
     demo: null,
@@ -48,7 +48,7 @@ export default [
     name: "jewelry",
     img: "./works/jewelry.png",
     description:
-      "I am proud to showcase my meticulously crafted jewelry shop project, a testament to my skills in web development. \n\nLeveraging the power of React and the versatile styling capabilities of Bootstrap, I have created an immersive and visually stunning online shopping experience. \n\nFrom elegant designs to seamless navigation, my project offers users a captivating journey through a curated collection of exquisite jewelry pieces.\n\nContributors: \n  Front End: May Thit Htun\n  BackEnd: Moe Phyu Sin Maung",
+      "I am proud to showcase my meticulously crafted jewelry shop project, a testament to my skills in web development. \n\nLeveraging the power of React and the versatile styling capabilities of Bootstrap, I have created an immersive and visually stunning online shopping experience. \n\nFrom elegant designs to seamless navigation, my project offers users a captivating journey through a curated collection of exquisite jewelry pieces.\n\nContributors: \n  Front End: Me\n  BackEnd: Moe Phyu Sin Maung",
     techStacks: ["CSS", "Javascript", "React", "Bootstrap"],
     source: "https://github.com/Novarista13/jewelry_shop",
     demo: "https://drive.google.com/file/d/1MK7GywRZZaX_DIBTevVVFPEMG5zgE4n5/preview",
@@ -57,7 +57,7 @@ export default [
     name: "coffee",
     img: "./works/coffee.jpg",
     description:
-      "Constructed my coffee shop review website with a dedicated coffee album section using HTML, CSS, React, and Bootstrap, offering coffee enthusiasts a comprehensive platform for sharing and exploring their favorite brews. \n\nMy expertise in these technologies allowed me to create a visually appealing coffee album section, where coffee lovers can share their passion and discover new flavors.\n\nContributors: Me",
+      "Constructed my coffee shop review website with a dedicated coffee album section using HTML, CSS, React, and Bootstrap. \n\nI offeredS coffee enthusiasts a comprehensive platform for sharing and exploring their favorite brews. \n\nMy expertise in these technologies allowed me to create a visually appealing coffee album section, where coffee lovers can share their passion and discover new flavors.\n\nContributors: Me",
     techStacks: ["Javascript", "React", "Bootstrap"],
     source: "https://github.com/Novarista13/coffee",
     demo: "https://coffeenova-corner.netlify.app/home",

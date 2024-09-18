@@ -8,7 +8,7 @@ const Player = () => {
 
   const velocity = useRef(new THREE.Vector3());
   const direction = useMemo(() => new THREE.Vector3(), []);
-  const travelSpeed = 200; // 50
+  const travelSpeed = 50; // 200
 
   useFrame((state, delta) => {
     const { forward, backward, leftward, rightward } = getKeys();

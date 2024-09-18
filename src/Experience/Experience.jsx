@@ -1,12 +1,11 @@
 import * as THREE from "three";
 import { Perf } from "r3f-perf";
-import { Center, OrbitControls, PointerLockControls, useGLTF } from "@react-three/drei";
+import { Center, OrbitControls, PointerLockControls } from "@react-three/drei";
 import { useControls } from "leva";
 
 import World from "./world/World";
 import Player from "./Player";
 import Environment from "./Environment";
-import { useThree } from "@react-three/fiber";
 
 // mutalized items for performance
 export const plane = new THREE.PlaneGeometry(1, 1, 1, 1);
@@ -28,9 +27,6 @@ export default function Experience() {
     floorColor: "#768a57",
     perfVisible: true,
   });
-
-  const { scene } = useThree();
-  // scene.fog = new THREE.Fog("lightblue", 5, 15);
 
   return (
     <>

@@ -14,6 +14,8 @@ const useModelResources = (model) => {
       node = Object.values(nodes).filter((obj) => obj.name.includes("boardAbout"));
     } else if (model === "works") {
       node = Object.values(nodes).filter((obj) => obj.name.includes("boardPj"));
+    } else if (model === "links") {
+      node = Object.values(nodes).filter((obj) => obj.name.includes("link"));
     } else {
       node = nodes[model];
     }
