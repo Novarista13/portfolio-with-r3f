@@ -7,7 +7,6 @@ export default {
   root: "src/",
   publicDir: "../public/",
   base: "./",
-  assetsInclude: ["**/*.glb"],
   plugins: [
     // Restart server on static/public file change
     restart({ restart: ["../public/**"] }),

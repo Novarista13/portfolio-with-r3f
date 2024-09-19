@@ -3,7 +3,7 @@ import { useMemo } from "react";
 
 const useModelResources = (model) => {
   const { nodes } = useMemo(() => {
-    return useGLTF("/models/world.glb");
+    return useGLTF("/world.glb");
   }, []);
 
   const resources = useMemo(() => {
