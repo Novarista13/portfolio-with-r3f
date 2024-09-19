@@ -38,10 +38,6 @@ Welcome to my portfolio repository! This project showcases my work in a unique, 
 - Use the arrow keys or WASD to navigate through the garden.
 - Interact with the projects by clicking on them.
 
-## Contributing
-
-I welcome contributions! If you have suggestions or improvements, please open an issue or submit a pull request.
-
 ## Feedback
 
 I'm excited to share this creative space with you and would love to hear your thoughts. Check it out and let me know what you think!
