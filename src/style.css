@@ -71,7 +71,7 @@ body,
  */
 .controls {
   position: absolute;
-  bottom: 5%;
+  bottom: 3%;
   left: 0;
   width: 100%;
 }
@@ -88,10 +88,6 @@ body,
   border: 2px solid #ffffff;
   background: #ffffff44;
   border-radius: 12px;
-}
-
-.controls .key.large {
-  width: 144px;
 }
 
 .controls .key.active {

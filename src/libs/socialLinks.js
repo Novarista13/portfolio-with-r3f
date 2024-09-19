@@ -8,7 +8,7 @@ export default (link) => {
     case "mail":
       return "mailto:maythit1345@example.com";
     case "discord":
-      return "";
+      return "https://discord.com/invite/EHxpQcJb";
 
     default:
       break;

@@ -1,21 +1,13 @@
 import { Canvas, useLoader } from "@react-three/fiber";
 import Experience from "./Experience/Experience.jsx";
-import { Leva, useControls } from "leva";
 import { KeyboardControls } from "@react-three/drei";
 import { Suspense, useState, useEffect } from "react";
-import Interface from "./Experience/Interface.jsx";
+import Interface from "./Experience/Contents/Interface.jsx";
 import Loading from "./Loading.jsx";
-import Intro from "./Experience/Intro.jsx";
+import Intro from "./Experience/Contents/Intro.jsx";
 
 const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
-
-  const { cameraPosition } = useControls("camera", {
-    cameraPosition: {
-      value: { x: 15, y: -2.5, z: 23 },
-      step: 0.01,
-    },
-  });
 
   const handleLoadingComplete = () => {
     setIsLoaded(true);
@@ -30,7 +22,6 @@ const App = () => {
         { name: "rightward", keys: ["ArrowRight", "KeyD"] },
       ]}
     >
-      <Leva collapsed />
       <Suspense fallback={<Loading />}>
         <Canvas
           flat
@@ -39,7 +30,7 @@ const App = () => {
             fov: 45,
             near: 0.1,
             far: 30,
-            position: [cameraPosition.x, cameraPosition.y, cameraPosition.z],
+            position: [15, -2.5, 23],
             rotation: [0, 0, 0],
           }}
         >

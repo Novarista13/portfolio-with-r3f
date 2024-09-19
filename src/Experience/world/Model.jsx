@@ -1,7 +1,9 @@
 import * as THREE from "three";
-import useModelResources from "../../hooks/useModelResources";
-import { useCallback } from "react";
+
 import { useTexture } from "@react-three/drei";
+import { useCallback } from "react";
+
+import useModelResources from "../../hooks/useModelResources";
 
 const Model = ({ item }) => {
   const model = useCallback(useModelResources(item.name), [item.name]);

@@ -1,21 +1,30 @@
 export default [
   {
-    name: "book",
-    img: "./works/book.png",
+    name: "portfolio",
+    img: "./works/portfolio.png",
     description:
-      "I developed a comprehensive book recommendation platform using NextJS and TailwindCSS, handling both the frontend and backend development independently. \n\n The website allows users to search for books, receive personalized recommendations, read reviews, and create customizable book lists. \n\nThe backend services include user authentication, book data management, and recommendation algorithms, providing a robust and efficient solution for book enthusiasts.\n\nContributors: Me",
-    techStacks: ["Typescript", "Next", "Next Auth", "Prisma", "Zod", "Tailwind", "FlowbiteUI"],
-    source: "https://github.com/Novarista13/book-recommend",
-    demo: "https://drive.google.com/file/d/1Hois0HGsxV5gMlMgv5XzfK-NvkyHTNbq/preview",
+      "I created an immersive portfolio experience where users can explore a garden-like scene, showcasing my projects in a unique and engaging way.\n\n Every model in the scene was crafted by me using Blender, highlighting my skills in 3D modeling. Utilizing React Three Fiber (r3f), I brought the garden to life, allowing users to walk through and interact with my work. \n\nI also focused on optimizing performance to ensure a smooth and enjoyable experience. This project reflects my dedication to blending creativity with technical expertise.\n\nContributors: Me",
+    techStacks: ["Javascript", "ThreeJS", "R3F", "Drei", "Tailwind"],
+    source: "https://github.com/Novarista13/portfolio-with-r3f",
+    demo: "",
   },
   {
-    name: "book",
-    img: "./works/book.png",
+    name: "remen",
+    img: "./works/ramen.png",
     description:
-      "I developed a comprehensive book recommendation platform using NextJS and TailwindCSS, handling both the frontend and backend development independently. \n\nThe website allows users to search for books, receive personalized recommendations, read reviews, and create customizable book lists. \n\nThe backend services include user authentication, book data management, and recommendation algorithms, providing a robust and efficient solution for book enthusiasts.\n\nContributors: Me",
-    techStacks: ["Typescript", "Next", "Next Auth", "Prisma", "Zod", "Tailwind", "FlowbiteUI"],
-    source: "https://github.com/Novarista13/book-recommend",
-    demo: "https://drive.google.com/file/d/1Hois0HGsxV5gMlMgv5XzfK-NvkyHTNbq/preview",
+      "I developed an interactive ramen pot website using Three.js and GLSL shaders, handling both the 3D modeling and shader implementation independently.\n\n The website allows users to control the fire level, showcasing dynamic effects like fire, steam, and soup boiling in real-time. \n\n This project demonstrates my ability to create engaging and visually stunning web experiences. It highlights my skills in 3D modeling and shader programming, as well as my ability to integrate complex visual effects seamlessly.\n\nContributors: Me",
+    techStacks: ["Javascript", "ThreeJS", "GLSL"],
+    source: "https://github.com/Novarista13/ramen_pot",
+    demo: "https://ramen-pot.vercel.app/",
+  },
+  {
+    name: "labyrinth",
+    img: "./works/labyrinth.png",
+    description:
+      "I’ve recently completed developing a web labyrinth game for desktop using React Three Fiber (r3f), React Three Rapier for physics and Zustand for state management. \n\nThe game features intricate maze designs and realistic physics interactions, providing an engaging and challenging experience for players. Navigate through the maze, solve puzzles, and enjoy the immersive graphics and smooth gameplay.\n\n The project showcases my ability to integrate complex physics with interactive 3D environments, pushing the boundaries of web-based gaming.  \n\nContributors: Me",
+    techStacks: ["Javascript", "ThreeJS", "R3F", "Drei", "Zustand"],
+    source: "https://github.com/Novarista13/labyrinth-with-r3f",
+    demo: "https://labyrinth-with-r3f.vercel.app/",
   },
   {
     name: "book",
@@ -57,7 +66,7 @@ export default [
     name: "coffee",
     img: "./works/coffee.jpg",
     description:
-      "Constructed my coffee shop review website with a dedicated coffee album section using HTML, CSS, React, and Bootstrap. \n\nI offeredS coffee enthusiasts a comprehensive platform for sharing and exploring their favorite brews. \n\nMy expertise in these technologies allowed me to create a visually appealing coffee album section, where coffee lovers can share their passion and discover new flavors.\n\nContributors: Me",
+      "I Constructed my coffee shop review website with a dedicated coffee album section using HTML, CSS, React, and Bootstrap. \n\nI offeredS coffee enthusiasts a comprehensive platform for sharing and exploring their favorite brews. \n\nMy expertise in these technologies allowed me to create a visually appealing coffee album section, where coffee lovers can share their passion and discover new flavors.\n\nContributors: Me",
     techStacks: ["Javascript", "React", "Bootstrap"],
     source: "https://github.com/Novarista13/coffee",
     demo: "https://coffeenova-corner.netlify.app/home",
@@ -66,16 +75,7 @@ export default [
     name: "weather",
     img: "./works/weather.jpg",
     description:
-      "Developed my weather website using React, Bootstrap, and the OpenWeather API, creating a dynamic platform for real-time weather information. \n\nLeveraging React's component-based architecture and Bootstrap's responsive design, I crafted an visually appealing user interface. \n\nBy integrating the OpenWeather API, I ensured that users could access up-to-date weather data with ease.\n\nContributors: Me",
-    techStacks: ["Javascript", "React", "Axios", "Bootstrap"],
-    source: "https://github.com/Novarista13/weather-react-app",
-    demo: "https://dashing-dolphin-5b27ce.netlify.app/",
-  },
-  {
-    name: "weather",
-    img: "./works/weather.jpg",
-    description:
-      "Developed my weather website using React, Bootstrap, and the OpenWeather API, creating a dynamic platform for real-time weather information. \n\nLeveraging React's component-based architecture and Bootstrap's responsive design, I crafted an visually appealing user interface. \n\nBy integrating the OpenWeather API, I ensured that users could access up-to-date weather data with ease.\n\nContributors: Me",
+      "I Developed my weather website using React, Bootstrap, and the OpenWeather API, creating a dynamic platform for real-time weather information. \n\nLeveraging React's component-based architecture and Bootstrap's responsive design, I crafted an visually appealing user interface. \n\nBy integrating the OpenWeather API, I ensured that users could access up-to-date weather data with ease.\n\nContributors: Me",
     techStacks: ["Javascript", "React", "Axios", "Bootstrap"],
     source: "https://github.com/Novarista13/weather-react-app",
     demo: "https://dashing-dolphin-5b27ce.netlify.app/",

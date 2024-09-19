@@ -6,7 +6,7 @@ const WorkContent = ({ work }) => {
       className="w-full h-full 
 text-[25px] rounded-[50px] text-white bg-[#3E3232] px-12 py-10 flex flex-col"
     >
-      <div className="flex flex-row items-center gap-x-4 px-7 min-h-10 overflow-x-scroll">
+      <div className="flex flex-row items-center gap-x-4 px-7 min-h-10">
         <p className="mr-2 inline">Tech Stack: </p>
         {work.techStacks.map((tech, id) => (
           <img key={id} src={skillsImage(tech)} alt={tech} width={40} height={40} />

@@ -1,5 +1,4 @@
 import Typewriter from "typewriter-effect";
-import React from "react";
 
 function Text() {
   return (

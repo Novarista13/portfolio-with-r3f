@@ -1,7 +1,6 @@
 import * as THREE from "three";
-import { useControls } from "leva";
 
-import { Html, useTexture } from "@react-three/drei";
+import { useTexture } from "@react-three/drei";
 import { useCallback, useMemo } from "react";
 
 import worksData from "../../libs/worksData";
@@ -10,13 +9,6 @@ import { plane } from "../Experience";
 import CustomHtml from "./CustomHtml";
 
 const SingleWork = ({ workArray, workIndex }) => {
-  const { scale } = useControls("workImage", {
-    scale: {
-      value: { x: 6.3, y: 4.3, z: 0 },
-      step: 0.01,
-    },
-  });
-
   const [work1, work2] = useMemo(() => workArray, [workArray]);
   const work = useMemo(() => worksData[workIndex], [workIndex]);
 
@@ -35,7 +27,7 @@ const SingleWork = ({ workArray, workIndex }) => {
             : work1.rotation.y + Math.PI,
           work1.rotation.z,
         ]}
-        scale={[scale.x, scale.y, scale.z]}
+        scale={[6.3, 4.3, 0]}
       >
         <meshBasicMaterial map={image} />
       </mesh>

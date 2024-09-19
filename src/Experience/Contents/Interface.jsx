@@ -1,5 +1,4 @@
 import { useKeyboardControls } from "@react-three/drei";
-import React from "react";
 
 const Interface = () => {
   const forward = useKeyboardControls((state) => state.forward);

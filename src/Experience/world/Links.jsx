@@ -1,9 +1,11 @@
 import * as THREE from "three";
-import useModelResources from "../../hooks/useModelResources";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+
 import { useTexture } from "@react-three/drei";
-import CustomHtml from "./CustomHtml";
+import { useCallback, useMemo } from "react";
+
+import useModelResources from "../../hooks/useModelResources";
 import socialLinks from "../../libs/socialLinks";
+import CustomHtml from "./CustomHtml";
 
 const linksMaterial = new THREE.MeshBasicMaterial();
 

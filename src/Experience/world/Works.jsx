@@ -1,4 +1,5 @@
-import { useCallback, useRef } from "react";
+import { useCallback } from "react";
+
 import useModelResources from "../../hooks/useModelResources";
 import SingleWork from "./SingleWork";
 
