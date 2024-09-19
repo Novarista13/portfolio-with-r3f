@@ -1,9 +1,10 @@
 import { useGLTF } from "@react-three/drei";
 import { useMemo } from "react";
+import world from "../../public/models/world.glb";
 
 const useModelResources = (model) => {
   const { nodes } = useMemo(() => {
-    return useGLTF("./models/world.glb");
+    return useGLTF(world.src);
   }, []);
 
   const resources = useMemo(() => {
