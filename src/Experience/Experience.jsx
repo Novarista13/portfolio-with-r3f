@@ -12,7 +12,7 @@ export const plane = new THREE.PlaneGeometry(1, 1, 1, 1);
 export default function Experience() {
   return (
     <>
-      {<Perf position="top-left" />}
+      {window.location.hash === "#perf" && <Perf position="top-left" />}
 
       <PointerLockControls makeDefault />
       <Player />
