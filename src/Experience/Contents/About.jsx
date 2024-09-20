@@ -11,13 +11,14 @@ const About1Content = () => {
           I'M <span className="hover-highlight text-[#f6cfcf]">MAY THIT HTUN</span>
         </div>
         <Text />
-        {/* <a
+        <a
           className="hover-highlight w-[195px] h-[47px] mt-5 text-[25px] text-center rounded-xl border-2 border-[#f6cfcf]"
           href="/maythithtun.pdf"
           download="MayThitHtun.pdf"
+          onClick={(e) => e.stopPropagation()}
         >
           Download CV
-        </a> */}
+        </a>
       </div>
       <img className="hero-gif basis-96 w-96 h-96" src={"./cha.gif"} alt="hero" />
     </div>
