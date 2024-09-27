@@ -5,6 +5,7 @@ import { Center, PointerLockControls } from "@react-three/drei";
 import Environment from "./Environment";
 import Player from "./Player";
 import World from "./world/World";
+import GardenAudio from "./GardenAudio";
 
 // mutalized items for performance
 export const plane = new THREE.PlaneGeometry(1, 1, 1, 1);
@@ -17,6 +18,7 @@ export default function Experience() {
       <PointerLockControls makeDefault />
       <Player />
 
+      <GardenAudio />
       <Environment />
 
       <Center>

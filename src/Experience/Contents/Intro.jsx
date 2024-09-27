@@ -9,6 +9,7 @@ const Intro = () => {
       if (document.pointerLockElement) {
         infoModelRef.current.style.display = "none";
         infoPanelRef.current.style.height = "7rem";
+        infoPanelRef.current.style.width = "6rem";
       }
     };
     document.addEventListener("pointerlockchange", checkPointerLock);
@@ -56,6 +57,7 @@ const Intro = () => {
           e.stopPropagation();
           infoModelRef.current.style.display = "block";
           infoPanelRef.current.style.height = "100%";
+          infoPanelRef.current.style.width = "100%";
         }}
         className="p-1 bg-[#ffffff44] absolute bottom-[20px] left-[30px] border-2 border-white rounded-full"
       >
