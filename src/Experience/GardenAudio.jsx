@@ -10,6 +10,7 @@ function GardenAudio() {
 
   useEffect(() => {
     const audio = new ThreeAudio(listener.current);
+    audio.autoplay = true;
     audio.setBuffer(audioFile);
     audio.setLoop(true);
     audio.setVolume(0.5);

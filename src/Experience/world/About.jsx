@@ -22,8 +22,8 @@ const About = () => {
         <CustomHtml
           position={[0, 0, 0.01]}
           style={{
-            width: "143vh",
-            height: "98vh",
+            width: "841px",
+            height: "575px",
           }}
         >
           <About1Content />
@@ -35,8 +35,8 @@ const About = () => {
           position={[0, 0, -0.01]}
           rotation={[0, Math.PI, 0]}
           style={{
-            width: "163vh",
-            height: "112vh",
+            width: "952px",
+            height: "655px",
           }}
         >
           <About2Content />

@@ -9,6 +9,15 @@ export default [
     demo: "",
   },
   {
+    name: "keyboard",
+    img: "./works/keyboard.png",
+    description:
+      "I created an interactive keyboard showcase website, where users can explore and customize the keyboard colors while experiencing smooth scroll animations.\n\n Built using R3F and GSAP, this project demonstrates my skills in creating engaging and responsive web experiences. The site features audio effects to enhance user interaction, showcasing my dedication to both creativity and technical expertise.\n\nI also focused on optimizing performance to ensure a seamless and enjoyable user experience. This project reflects my commitment to delivering high-quality, immersive digital experiences.\n\nContributors: Me",
+    techStacks: ["Javascript", "ThreeJS", "R3F", "GSAP", "Tailwind", "Drei", "Zustand"],
+    source: "https://github.com/Novarista13/keyboard_showcase",
+    demo: "https://keyboard-showcase.vercel.app/",
+  },
+  {
     name: "remen",
     img: "./works/ramen.png",
     description:
@@ -71,13 +80,13 @@ export default [
     source: "https://github.com/Novarista13/coffee",
     demo: "https://coffeenova-corner.netlify.app/home",
   },
-  {
-    name: "weather",
-    img: "./works/weather.jpg",
-    description:
-      "I Developed my weather website using React, Bootstrap, and the OpenWeather API, creating a dynamic platform for real-time weather information. \n\nLeveraging React's component-based architecture and Bootstrap's responsive design, I crafted an visually appealing user interface. \n\nBy integrating the OpenWeather API, I ensured that users could access up-to-date weather data with ease.\n\nContributors: Me",
-    techStacks: ["Javascript", "React", "Axios", "Bootstrap"],
-    source: "https://github.com/Novarista13/weather-react-app",
-    demo: "https://dashing-dolphin-5b27ce.netlify.app/",
-  },
+  // {
+  //   name: "weather",
+  //   img: "./works/weather.jpg",
+  //   description:
+  //     "I Developed my weather website using React, Bootstrap, and the OpenWeather API, creating a dynamic platform for real-time weather information. \n\nLeveraging React's component-based architecture and Bootstrap's responsive design, I crafted an visually appealing user interface. \n\nBy integrating the OpenWeather API, I ensured that users could access up-to-date weather data with ease.\n\nContributors: Me",
+  //   techStacks: ["Javascript", "React", "Axios", "Bootstrap"],
+  //   source: "https://github.com/Novarista13/weather-react-app",
+  //   demo: "https://dashing-dolphin-5b27ce.netlify.app/",
+  // },
 ];

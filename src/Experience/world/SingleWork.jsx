@@ -45,8 +45,8 @@ const SingleWork = ({ workArray, workIndex }) => {
               : [0, 0, 0]
           }
           style={{
-            width: "163vh",
-            height: "112vh",
+            width: "952px",
+            height: "655px",
           }}
         >
           <WorkContent work={work} />

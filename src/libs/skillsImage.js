@@ -15,6 +15,8 @@ export default (skill) => {
       return "./skills/threejs.svg";
     case "r3f":
       return "./skills/r3f.png";
+    case "gsap":
+      return "./skills/gsap.svg";
     case "materialui":
       return "./skills/materialui.svg";
     case "typescript":
