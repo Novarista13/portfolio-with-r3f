@@ -9,6 +9,15 @@ export default [
     demo: "",
   },
   {
+    name: "solar-system",
+    img: "./works/solar.png",
+    description:
+      "I created an engaging 3D animation of the solar system, where users can explore high-quality, vibrant colors of each planet.\n\n Every planet showcases detailed shaders, dynamic camera movements, and realistic rotations, all brought to life using React Three Fiber (r3f). The sun's direction enhances the color and atmosphere of each planet, offering a truly immersive experience.\n\n This project is a testament to my ability to merge creative vision with technical powers.\n\nContributors: Me",
+    techStacks: ["Javascript", "ThreeJS", "GLSL", "R3F", "Drei", "Tailwind"],
+    source: "https://github.com/Novarista13/solar-system",
+    demo: "https://solar-system-nu-navy.vercel.app/",
+  },
+  {
     name: "keyboard",
     img: "./works/keyboard.png",
     description:
